@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Services } from '../../infrastructure/api/ports';
+import { Services } from '../../../core/ports/services';
 import { useAsync } from '../../../core/application/hooks';
 import { Table } from '../components/Table';
 

@@ -1,5 +1,5 @@
 import { useAsync } from '../../../core/application/hooks';
-import { Services } from '../../infrastructure/api/ports';
+import { Services } from '../../../core/ports/services';
 import { useMemo, useState } from 'react';
 
 export default function BankingTab(){

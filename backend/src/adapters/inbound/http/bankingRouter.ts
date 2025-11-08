@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { PrismaBankingRepo } from "../../outbound/prisma/PrismaBankingRepo";
-import { applyBank, canBank } from "../../../core/application/BankSurplus";
+import { canBank } from "../../../core/application/BankSurplus";
+import { applyBank } from "../../../core/application/ApplyBanked";
 
 export const bankingRouter = Router();
 

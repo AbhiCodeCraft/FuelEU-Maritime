@@ -1,5 +1,5 @@
 import { useAsync } from '../../../core/application/hooks';
-import { Services } from '../../infrastructure/api/ports';
+import { Services } from '../../../core/ports/services';
 import { Table } from '../components/Table';
 import { GHGChart } from '../../infrastructure/charts/GHGChart';
 

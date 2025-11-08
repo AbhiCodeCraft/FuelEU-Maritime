@@ -9,6 +9,9 @@
     "test": "vitest --run",
     "prisma": "prisma",
     "seed": "tsx prisma/seed.ts"
+  }, 
+  "prisma": {
+  "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.20.0",
